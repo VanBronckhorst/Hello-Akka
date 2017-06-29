@@ -1,22 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Gist
- @VanBronckhorst
- Sign out
- Watch 2,097
-  Star 51,727
-  Fork 22,217 github/gitignore
- Code  Pull requests 149  Projects 0 Insights
-Branch: master Find file Copy pathgitignore/Global/JetBrains.gitignore
-4148e0c  on Mar 20
-@Omarasifshaikh Omarasifshaikh Adding cmake-build-debug
-23 contributors @thunsaker @samskiter @LazarusX @arcresu @victorhaggqvist @tsteinholz @ssinss @exarus @rocketraman @RobertoNovelo @Cantido @petermorlion @Omarasifshaikh @jturmel @Nihlus @yatskevich @GingerGeek @Fuhrmann @ergl @drothmaler @Nainterceptor @cemmersb @shiftkey
-RawBlameHistory
-50 lines (37 sloc)  987 Bytes
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
@@ -24,6 +5,7 @@ RawBlameHistory
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/dictionaries
+.idea/
 
 # Sensitive or high-churn files:
 .idea/**/dataSources/
@@ -61,10 +43,3 @@ atlassian-ide-plugin.xml
 # Cursive Clojure plugin
 .idea/replstate.xml
 
-# Crashlytics plugin (for Android Studio and IntelliJ)
-com_crashlytics_export_strings.xml
-crashlytics.properties
-crashlytics-build.properties
-fabric.properties
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
